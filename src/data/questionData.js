@@ -1,0 +1,50 @@
+export const data = {
+    "Physical": [
+        "I eat a balanced nutritional diet",
+        "I exercise at least 3 times per week",
+        "I choose to abstain from sex or sex is enjoyable and I practice safe sex",
+        "I do not use alcohol or I use in moderation, am a non-smoker and avoid street drugs",
+        "I am generally free from illness",
+        "I am a reasonable weight for my height",
+    ],
+    "Financial": [
+        "I have a solid balance between saving for the future and spending for the present",
+        "My beliefs/ values surrounding money are harmonious with my behavior",
+        "What I am doing with work/ school has purpose",
+        "I use money positively, ie. Little or no gambling or excessive massing of goods",
+        "I have a balance between work/ school and the other areas of my life",
+        "I have financial plans for the future",
+    ],
+    "Intellectual": [
+        "I gave specific intellectual goals, ie. Learning a new skill, a specific major",
+        "I pursue mentally stimulating interests or hobbies",
+        "I am genuinely satisfied with my education plan/ vocation",
+        "I have positive thoughts (a low degree of negativity and cynicism)",
+        "I would describe myself as a lifelong learner",
+        "I commit time and energy to professional and self-development",
+    ],
+    "Emotional": [
+        "I have a sense of fun and laughter",
+        "I am able to feel and label my feelings",
+        "I express my feelings appropriately",
+        "I have a sense of control in my life and I am able to adapt to change",
+        "I am able to comfort or control myself when I am troubled",
+        "Others would describe me as emotionally stable",
+    ],
+    "Social": [
+        "I am able to resolve conflicts in all areas of my life",
+        "I am aware of the feelings of others and can respond appropriately",
+        "I have at least three people with whom I have a close and trusting relationship",
+        "I am aware of and able to set and respect my own and others’ boundaries",
+        "I have satisfying social interactions with others",
+        "I have a sense of belonging/ not being isolated",
+    ],
+    "Spiritual": [
+        "I practice meditation, prayer, or engage in some type of growth practice",
+        "I have a general sense of serenity",
+        "I have faith in a higher power",
+        "I have a sense of meaning and purpose in my life",
+        "I trust others and am able to forgive others and myself and let go",
+        "Principles/ ethics/ morals provide guides for my life",
+    ]
+}

@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+
+import Header from './components/Header';
+import Main from './components/Main';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World!
-        </p>
-        <a
-          className="App-link"
-          href="https://youtu.be/dQw4w9WgXcQ"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Do not click on this
-        </a>
-      </header>
+    <div className="App bg-zinc-700">
+      <Header></Header>
+      <div className= "w-full p-10">
+        <Main></Main>
+      </div>
     </div>
   );
 }
