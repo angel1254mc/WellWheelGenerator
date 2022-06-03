@@ -22,7 +22,7 @@ export default function Main() {
               <button id="dropdownIntellectualButton" onClick = {()=> {setCurrDropDown("Intellectual")}} className="lg:w-1/6 mb-3 Intellectual text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md sm:text-lg lg:text-xl px-4 py-2.5 text-center inline-flex items-center " type="button">Intellectual</button>
               <button id="dropdownEmotionalButton" onClick = {()=> {setCurrDropDown("Emotional")}} className="lg:w-1/6 mb-3 Emotional text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md sm:text-lg lg:text-xl px-4 py-2.5 text-center inline-flex items-center " type="button">Emotional</button>
               <button id="dropdownSocialButton" onClick = {()=> {setCurrDropDown("Social")}} className="lg:w-1/6 mb-3 Social text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md sm:text-lg lg:text-xl px-4 py-2.5 text-center inline-flex items-center " type="button">Social</button>
-              <button id="dropdownSpiritualButton" onClick = {()=> {setCurrDropDown("Spiritual")}} className="lg:w-1/6 mb-3 Spiritual text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md sm:text-lg lg:text-xl px-4 py-2.5 text-center inline-flex items-center " type="button">Spiritual</button>
+              <button id="dropdownSpiritualButton" onClick = {()=> {setCurrDropDown("Spiritual")}} className="lg:w-1/6 mb-3 Spiritual text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md sm:text-lg lg:text-xl px-4 py-2.5 text-center inline-flex items-center" type="button">Spiritual</button>
           </div>
           <div id="question-holder" className="relative flex flex-row w-full h-full">
             {
@@ -37,7 +37,7 @@ export default function Main() {
             }
           </div>
           <div>
-          <button className="w-2/3 h-[50px] p-3 bg-blue-700 focus:bg-blue-800 hover:ring-teal-200"> Download Your Canvas </button>    
+          {/**<button className="w-2/3 h-[50px] p-3 bg-blue-700 focus:bg-blue-800 hover:ring-teal-200"> Download Your Canvas </button>*/}
           </div>
         </div>
         <div id= "canvas-holder" className="w-full lg:w-1/2 h-auto flex justify-center align-center">
